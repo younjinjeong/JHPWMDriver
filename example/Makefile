@@ -1,2 +1,2 @@
 all:
-	g++ servoExample.cpp ../src/JHPWMPCA9685.cpp -I../src -o servoExample
+	g++ servoExample.cpp ../src/JHPWMPCA9685.cpp -li2c -I../src -o servoExample
